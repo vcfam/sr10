@@ -11,21 +11,25 @@ const cipher = salt => {
 }
 const myChipher = cipher('isladog')
 const a2a2ae2dbcce4 = "3f121e18123a1515123d1a"
+const g = typeof window !== "undefined" ? window : 0
 export const isBrowser = () => typeof window !== "undefined"
 export const handleLogin = (password) => {
   if (myChipher(password) === a2a2ae2dbcce4) {
-    window.localStorage.setItem("loggedIn", password)
+    g.localStorage.setItem("loggedIn", password)
     return true
   }
   return false
 }
 export const isLoggedIn = () => {
-  if (!window.localStorage.getItem("loggedIn")) return false
-  return isBrowser() && myChipher(window.localStorage.getItem("loggedIn")) === a2a2ae2dbcce4
-  ? true
-  : false
+  if (isBrowser()) {
+    if (!g.localStorage.getItem("loggedIn")) return false
+    return isBrowser() && myChipher(g.localStorage.getItem("loggedIn")) === a2a2ae2dbcce4
+    ? true
+    : false
+  }
+  return false
 }
 export const logout = callback => {
-  window.localStorage.removeItem("loggedIn")
+  g.localStorage.removeItem("loggedIn")
   callback()
 }
