@@ -17,7 +17,7 @@ const Layout = ({ children, location }) => {
     )
   } else {
     content = (
-      <div id="wrapper" className="page">
+      <div className="page">
         <div>
           {children}
         </div>
@@ -41,8 +41,7 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'robts', content: 'noindex'}
             ]}
           >
             <html lang="en" />
@@ -53,6 +52,7 @@ const Layout = ({ children, location }) => {
     />
   )
 }
+
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
