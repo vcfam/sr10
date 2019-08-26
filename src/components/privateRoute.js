@@ -6,6 +6,7 @@ class PrivateRoute extends Component {
   componentDidMount() {
     const { location } = this.props
     let noOnLoginPage = location.pathname !== `/`
+    console.log(isLoggedIn(), noOnLoginPage)
     if (!isLoggedIn() && noOnLoginPage) {
       navigate("/")
       return null

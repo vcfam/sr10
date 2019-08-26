@@ -19,6 +19,10 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/site/*`] },
+    },
   ],
 }
