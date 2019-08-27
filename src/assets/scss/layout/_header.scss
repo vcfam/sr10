@@ -54,10 +54,20 @@
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
-			.icon {
-				&:before {
-					font-size: 2rem;
-				}
+			a {
+				border-style: none;
+				vertical-align: middle; 
+				text-align: center;
+			}
+			
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 70%;
+				height: 70%;
+				margin-top: -35%;
+				margin-left: -35%;
 			}
 		}
 

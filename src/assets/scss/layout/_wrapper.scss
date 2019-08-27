@@ -22,17 +22,44 @@
 			display: block;
 		}
 
+		.alttitle {
+			position: absolute;
+			left: 5%;
+		}
+
 		@include breakpoint(xlarge) {
 			padding: 3rem 2rem;
 		}
 
-		@include breakpoint(small) {
-			padding: 2rem 1rem;
+		@include breakpoint(medium) {
+			padding: 1rem;
+
+			.alttitle {
+				position: absolute;
+				left: 5%;
+
+				h1 {
+					font-size: 1.5rem;
+					letter-spacing: 0.25rem;
+				}
+			}
 		}
 
-		@include breakpoint(xsmall) {
-			padding: 1rem;
+		@include breakpoint(small) {
+			padding: 2rem 1rem;
+
+			.alttitle {
+				position: absolute;
+				left: 5%;
+
+				h1 {
+					font-size: .8rem;
+					letter-spacing: 0.25rem;
+				}
+			}
 		}
+
+		
 
 		// &.page {
 			@include vendor('justify-content', 'flex-start');

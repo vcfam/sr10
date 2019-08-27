@@ -40,8 +40,8 @@ const Header = ({language, isMain}) => {
   return (
     <header id="header">
         <div className="logo">
-          <Link to="/" style={{borderStyle: 'none'}}>
-            <img src={logo} alt="westie logo" style={{width: '80px', marginTop: '16px'}}/>
+          <Link to="/">
+            <img src={logo} alt="westie logo"/>
           </Link>
         </div>
         {content}
@@ -52,7 +52,7 @@ const Header = ({language, isMain}) => {
               <li><Link to={`/travel#${language}`}>{menu.travel[language]}</Link></li>
               <li>
                 <a href="#">
-                  {menu.rsvp[language]}                    
+                  {menu.rsvp[language]}
                 </a>
               </li>
           </ul>

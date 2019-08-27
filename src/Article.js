@@ -37,7 +37,7 @@ function Article ({children, location}) {
               <a href="#it" className="button">IT</a>
               <a href="#" className="button">EN</a>
           </div>
-          <div className="alttitle" style={{position: 'absolute', left: '5%'}}>
+          <div className="alttitle">
               <h1>Seth + Raff 10</h1>
           </div>
           <Header language={language} />
