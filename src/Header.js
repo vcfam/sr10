@@ -16,7 +16,7 @@ const menu = {
   },
   venue: {
       en: `venue`,
-      it: `location e alloggio`
+      it: `location e hotel`
   },
   rsvp: {
       en: `RSVP`,
