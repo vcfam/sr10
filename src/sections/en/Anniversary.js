@@ -8,7 +8,7 @@ class Anniversary extends React.Component {
       <>
         <h2 className="major">Anniversary</h2>
         <span className="image main"><img src={pic01} alt="" /></span>
-        <p>More info coming soon!</p>
+        <p>In 2010 we celebrated our union in a small, intimate ceremony. In 2020, we would like to celebrate with all our friends and family.</p>
         
         <h3>Dress Code</h3>
         <p>Foremost, dress to enjoy the evening! If you have particular considerations 

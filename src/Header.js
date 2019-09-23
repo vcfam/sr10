@@ -50,15 +50,17 @@ const Header = ({language, isMain}) => {
               <li><Link to={`/anniversary#${language}`}>{menu.anniversary[language]}</Link></li>
               <li><Link to={`/venue#${language}`}>{menu.venue[language]}</Link></li>              
               <li><Link to={`/travel#${language}`}>{menu.travel[language]}</Link></li>
-              <li>
-                <a href="#">
-                  {menu.rsvp[language]}
-                </a>
-              </li>
+              <li><Link to={`/rsvp#${language}`}>{menu.rsvp[language]}</Link></li>
           </ul>
         </nav>
     </header>
 )}
+
+/* <li>
+                <a href="#">
+                  {menu.rsvp[language]}
+                </a>
+              </li> */
 
 Header.propTypes = {
   onOpenArticle: PropTypes.func,

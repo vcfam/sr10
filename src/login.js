@@ -43,7 +43,7 @@ class Login extends React.Component {
           <div id="wrapper">
             <header id="header">
               <div className="logo">
-                <img src={logo} alt="westie logo" style={{width: '80px', marginTop: '16px'}}/>
+                <img src={logo} alt="westie logo"/>
               </div>
               <div className="content">
                   <div className="inner">
