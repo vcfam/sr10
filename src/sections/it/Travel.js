@@ -13,7 +13,8 @@ class Travel extends React.Component {
         <h3>Pullman</h3>
         <p>Organizzeremo degli autobus dalla stazione dei treni più vicina: Fara Sabina a cui è possibile arrivare a Fara 
           Sabina con il treno da Roma Tiburtina o da Fiumicino. Gli autobus saranno disponibili Sabato pomeriggio e 
-          Domenica pomeriggio. Aggiungeremo ulteriori dettagli nei prossimi mesi. Scrivete pure se avete domande.</p>
+          Domenica pomeriggio. Organizzeremo anche un pullman Sabato sera per riportare all’hotel gli ospiti che non resteranno al Castello Orsini.
+          Aggiungeremo ulteriori dettagli nei prossimi mesi. Scrivete pure se avete domande.</p>
         <p>Se fosse necessario, il Castello Orsini può organizzare trasferimenti su richiesta tra la stazione e il 
           castello per €54.</p>
         <h3>Dall’aeroporto di Fiumicino</h3>

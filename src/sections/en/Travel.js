@@ -17,7 +17,8 @@ class Travel extends React.Component {
           flexibility in travel.</p>
         <h3>Coach Transport</h3>
         <p>For those who will benefit from transport options, we will run a coach shuttle between the local 
-          train station (Fara Sabina) and Castello Orsini Saturday afternoon and Sunday afternoon. You can reach
+          train station (Fara Sabina) and Castello Orsini Saturday afternoon and Sunday afternoon; the coach will
+          also take guests not staying at Orsini back to the second hotel Saturday evening. You can reach
           Fara Sabina direct from Fiumicino Airport and Rome. We will post transport times in the coming months. 
           Do get in touch with us if you have questions.</p>
         <p>Castello Orsini can arrange private transfers between the castle and the train station. These transfers cost €54.</p>
