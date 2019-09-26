@@ -195,6 +195,10 @@
 					}
 				}
 			}
+
+			nav > ul > li > a {
+				font-size: 12px;
+			}
 		}
 
 		@include breakpoint(small) {

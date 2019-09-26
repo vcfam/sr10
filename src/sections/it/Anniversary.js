@@ -1,10 +1,13 @@
 import React from 'react'
 
+import pic01 from '../../assets/images/CollageWed.png'
+
 class Anniversary extends React.Component {
   render() {
     return (
       <>
         <h2 className="major">L'anniversario</h2>
+        <span className="image main"><img src={pic01} alt="" /></span>
         <p>Nel 2010 abbiamo celebrato la nostra unione con una cerimonia piccola e intima.
           In occasione del nostro decimo anniversario vorremmo festeggiare con tutti i nostri amici e parenti.</p>
         
