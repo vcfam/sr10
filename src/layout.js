@@ -7,12 +7,7 @@ import './assets/scss/main.scss'
 const Layout = ({ children }) => {
   return (
     <>
-      <Helmet
-        title="Seth + Raff 10"
-        meta={[
-          { name: 'robts', content: 'noindex'}
-        ]}        
-      >
+      <Helmet>
         <html lang="en" />
       </Helmet>
       {children}
