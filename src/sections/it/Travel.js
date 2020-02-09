@@ -20,8 +20,6 @@ class Travel extends React.Component {
         <h3>Dall’aeroporto di Fiumicino</h3>
         <p>C’è un treno diretto dall’aeroporto a Fara Sabina: Trenitalia REG 22001 direzione Orte. Sono 17 fermate e 
           ci mette un’ora e mezza.</p>
-        <p>Non sappiamo se ci siano trasporti pubblici da Fara Sabina al castello, ma ci saranno gli i pullman organizzati 
-          da noi descritti sopra.</p>
         <img src={map1} alt="train map from FCO to Fara Sabina" />
         <h3>Da Roma</h3>
         <p>Da Roma Tiburtina prendete il TrenItalia REG 21720 direzione Poggio Mirteto. Sono 7 fermate fino Fara Sabina e 

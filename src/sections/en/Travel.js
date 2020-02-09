@@ -26,7 +26,6 @@ class Travel extends React.Component {
         <h3>From Fiumicino Airport</h3>
         <p>There is a direct train to Fara Sabina from Rome's Fiumicino Airport. Take the Trenitalia REG 22001
           travelling towards Orte. There will be 17 stops and the trip time is about 1hr 30mins.</p>
-        <p>There is no further public transport from Fara Sabina to the venue. See above for more details.</p>
         <img src={map1} alt="train map from FCO to Fara Sabina" />
         <h3>From Rome</h3>
         <p>Depart from Roma Tiburtina station and take the TrenItalia REG 21720 train towards Poggio Mirteto.
