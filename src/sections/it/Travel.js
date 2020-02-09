@@ -30,7 +30,7 @@ class Travel extends React.Component {
           da noi descritti sopra.</p>
         <img src={map2} alt="train map from Rome to Fara Sabina" />
         <h3>Da Fara Sabina</h3>
-        <p>Non sappiamo se ci siano trasporti pubblici da Fara Sabina al castello.</p>
+        <p>C’è un autobus <a href="https://www.cotralspa.it/">Cotral</a> tra la stazione di Fara Sabina a Nerola, più meno ogni ora, ma non sappiamo quanto sia affidabile! Aggiungeremo ulteriori dettagli quando verranno pubblicati gli orari per Settembre.</p>
         <p>In caso di ritardi, chiamate il Castello Orsini o uno di noi per farvi venire a prendere. 
           (Aggiungeremo ulteriori informazioni)</p>
       </>
