@@ -30,7 +30,6 @@ class Travel extends React.Component {
         <h3>From Rome</h3>
         <p>Depart from Roma Tiburtina station and take the TrenItalia REG 21720 train towards Poggio Mirteto.
           There will be 7 stops and travel time is approximately 40 minutes.</p>
-        <p>There is no further public transport from Fara Sabina to the venue. See below for more details.</p>
         <img src={map2} alt="train map from Rome to Fara Sabina" />
         
         <h3>From Fara Sabina</h3>

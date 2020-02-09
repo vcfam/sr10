@@ -24,8 +24,6 @@ class Travel extends React.Component {
         <h3>Da Roma</h3>
         <p>Da Roma Tiburtina prendete il TrenItalia REG 21720 direzione Poggio Mirteto. Sono 7 fermate fino Fara Sabina e 
           ci mette circa 40 minuti.</p>
-        <p>Non sappiamo se ci siano trasporti pubblici da Fara Sabina al castello, ma ci saranno gli i pullman organizzati 
-          da noi descritti sopra.</p>
         <img src={map2} alt="train map from Rome to Fara Sabina" />
         <h3>Da Fara Sabina</h3>
         <p>C’è un autobus <a href="https://www.cotralspa.it/">Cotral</a> tra la stazione di Fara Sabina a Nerola, più meno ogni ora, ma non sappiamo quanto sia affidabile! Aggiungeremo ulteriori dettagli quando verranno pubblicati gli orari per Settembre.</p>
