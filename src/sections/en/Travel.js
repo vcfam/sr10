@@ -33,7 +33,7 @@ class Travel extends React.Component {
         <img src={map2} alt="train map from Rome to Fara Sabina" />
         
         <h3>From Fara Sabina</h3>
-        <p>There is a <a href="https://www.cotralspa.it/">Cotral</a> bus from  from the train station in Fara Sabina to Nerola, followed by a 10 minute walk to Castello Orsini. This option definitely requires some planning: buses run about every hour, but they may not always be on time. Tickets will need to be purchased in advance and drivers will likely not speak English. We will add more details on how to navigate the bus system closer to the event when the September timetables will be released.</p>
+        <p>There is a <a href="https://www.cotralspa.it/">Cotral</a> bus from the train station in Fara Sabina to Nerola, followed by a 10 minute walk to Castello Orsini. This option definitely requires some planning: buses run about every hour, but they may not always be on time. Tickets will need to be purchased in advance and drivers will likely not speak English. We will add more details on how to navigate the bus system closer to the event when the September timetables will be released.</p>
         <p>In case you are delayed and need transport, call Castello Orsini or one of us to arrange transport. 
           (More info and numbers coming soon)</p>
       </>

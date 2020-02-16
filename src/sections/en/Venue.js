@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 import orsini from '../../assets/images/orsini.jpg'
 
@@ -9,7 +10,8 @@ class Venue extends React.Component {
         <h2 className="major">Venue and Accommodation</h2>
         <span className="image main"><img src={orsini} alt="view of Orsini castle" /></span>
         <p>The anniversary celebration will take place at Castello Orsini in Nerola. The anniversary will take place on Saturday
-          the 5th of September, but feel free to join for the weekend. More info on the specific agenda coming soon!
+          the 5th of September, but feel free to join for the weekend. For more details on the agenda see 
+          “<Link to="/anniversary#en">Anniversary</Link>”.
         </p>
         
         <h3>Lodging</h3>
