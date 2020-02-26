@@ -24,7 +24,7 @@ class Anniversary extends React.Component {
           Black tie optional, bow ties always appreciated.</p>
 
         <h3>Children</h3>
-        <p>Children of guests are very welcome to join in on the fun! Please do be mindful, though, that we will not have child minders or specific childcare facilities. So parents will continue to be parents over the weekend!</p>
+        <p>Children of guests are very welcome to join in on the fun! Please be aware, though, that we will not have child minders or specific childcare facilities. So parents will continue to be parents over the weekend!</p>
 
 
         <h3>Social Media Guidelines</h3>

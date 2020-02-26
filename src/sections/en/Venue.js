@@ -9,14 +9,14 @@ class Venue extends React.Component {
       <>
         <h2 className="major">Venue and Accommodation</h2>
         <span className="image main"><img src={orsini} alt="view of Orsini castle" /></span>
-        <p>The anniversary celebration will take place at Castello Orsini in Nerola. The anniversary will take place on Saturday
+        <p>The anniversary celebration will take place at Castello Orsini in Nerola on Saturday
           the 5th of September, but feel free to join for the weekend. For more details on the agenda see 
           “<Link to="/anniversary#en">Anniversary</Link>”.
         </p>
         
         <h3>Lodging</h3>
         <p>We encourage utilizing room blocks that have been reserved at the venue itself, <a href="https://www.castellorsini.it/en/home">Castello
-          Orsini</a>, however there is a limited number of rooms available. If you’re interested in staying in the castle,
+          Orsini</a>. There is, however, a limited number of rooms available. If you’re interested in staying in the castle,
           please indicate so in the RSVP form and we’ll get in touch and do
           our best to accommodate you. Also keep in mind that the castle is centuries old; the rooms are comfortable and have
           the amenities of a good hotel, but cannot match the luxury level of a modern hotel. Stay for the historical charm!

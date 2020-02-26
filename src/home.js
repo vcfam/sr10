@@ -26,7 +26,6 @@ class IndexPage extends React.Component {
   }
 
   render() {
-
     let language = 'en'
     if (this.props.location.hash.match(/it$/)) {
       language = 'it'

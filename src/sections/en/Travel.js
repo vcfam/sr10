@@ -9,6 +9,8 @@ class Travel extends React.Component {
     return (
       <>
         <h2 className="major">Travel</h2>
+        <p>Below are a number of transport options to Castello Orsini. Aside from a flight to Rome, 
+          a hired car is most direct to the castle, but other options include train/coach and train/bus.</p>
         <p>N.B. Rideshare apps are not available in this area of Italy.</p>
 
         <h3>By Car</h3>
@@ -32,7 +34,7 @@ class Travel extends React.Component {
           There will be 7 stops and travel time is approximately 40 minutes.</p>
         <img src={map2} alt="train map from Rome to Fara Sabina" />
         
-        <h3>From Fara Sabina</h3>
+        <h3>From Fara Sabina / Local bus transfer</h3>
         <p>There is a <a href="https://www.cotralspa.it/">Cotral</a> bus from the train station in Fara Sabina to Nerola, followed by a 10 minute walk to Castello Orsini. This option definitely requires some planning: buses run about every hour, but they may not always be on time. Tickets will need to be purchased in advance and drivers will likely not speak English. We will add more details on how to navigate the bus system closer to the event when the September timetables will be released.</p>
         <p>In case you are delayed and need transport, call Castello Orsini or one of us to arrange transport. 
           (More info and numbers coming soon)</p>
