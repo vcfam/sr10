@@ -1,8 +1,8 @@
 import React from 'react'
 import Article from './Article'
 
-import RsvpEN from './sections/en/Soon'
-import RsvpIT from './sections/it/Soon'
+import RsvpEN from './sections/en/Rsvp'
+import RsvpIT from './sections/it/Rsvp'
 
 function RsvpPage ({location}) {
   let content = <RsvpEN/>

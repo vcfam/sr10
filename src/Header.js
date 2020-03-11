@@ -50,10 +50,7 @@ const Header = ({language, isMain}) => {
               <li><Link to={`/anniversary#${language}`}>{menu.anniversary[language]}</Link></li>
               <li><Link to={`/venue#${language}`}>{menu.venue[language]}</Link></li>              
               <li><Link to={`/travel#${language}`}>{menu.travel[language]}</Link></li>
-              <li>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScVQR1vsUgzYi7xCA2InyA8dAzMRGkMTM1h6uOFKRQ8zVCvDg/viewform">
-                  {menu.rsvp[language]}
-                </a>
+              <li><Link to={`/rsvp#${language}`}>{menu.rsvp[language]}</Link>
               </li>
           </ul>
         </nav>
