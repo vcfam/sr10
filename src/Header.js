@@ -28,32 +28,44 @@ const menu = {
   }
 }
 
+const next = {
+  en: `POSTPONED`,
+  it: `RIMANDATO`
+}
+
+const nextInfo = {
+  en: `Details to come. For questions: `,
+  it: `a data da destinarsi. Per informazioni: `,
+}
+
 const Header = ({language, isMain}) => {
   const content = isMain 
     ? (<div className="content">
         <div className="inner">
-            <h1>Seth + Raff 10</h1>
-            <p>{subtitle[language ]}</p>
+          <h1>Seth + Raff 10</h1>
+          <h1>— {next[language]} —</h1>
+          <p>{nextInfo[language]}  <a href="mailto:sethandraff@gmail.com">sethandraff@gmail.com</a></p>
+          {/* <p>{subtitle[language ]}</p> */}
         </div>
     </div>)
     : ''
-  return (
+  return (    
     <header id="header">
-        <div className="logo">
-          <Link to="/">
-            <img src={logo} alt="westie logo"/>
-          </Link>
-        </div>
-        {content}
-        <nav>
-          <ul>
-              <li><Link to={`/anniversary#${language}`}>{menu.anniversary[language]}</Link></li>
-              <li><Link to={`/venue#${language}`}>{menu.venue[language]}</Link></li>              
-              <li><Link to={`/travel#${language}`}>{menu.travel[language]}</Link></li>
-              <li><Link to={`/rsvp#${language}`}>{menu.rsvp[language]}</Link>
-              </li>
-          </ul>
-        </nav>
+      <div className="logo">
+        <Link to="/">
+          <img src={logo} alt="westie logo"/>
+        </Link>
+      </div>
+      {content}      
+      {/* <nav>
+        <ul>
+            <li><Link to={`/anniversary#${language}`}>{menu.anniversary[language]}</Link></li>
+            <li><Link to={`/venue#${language}`}>{menu.venue[language]}</Link></li>              
+            <li><Link to={`/travel#${language}`}>{menu.travel[language]}</Link></li>
+            <li><Link to={`/rsvp#${language}`}>{menu.rsvp[language]}</Link>
+            </li>
+        </ul>
+      </nav> */}
     </header>
 )}
 

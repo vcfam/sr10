@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                 <a href="#" className="button">EN</a>
             </div>
             <Header language={language} isMain={true}/>
-            {footer}
+            {/* {footer} */}
           </div>
           <div id="bg"></div>
         </div>
