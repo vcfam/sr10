@@ -5,7 +5,7 @@ import Header from './Header'
 import FooterEN from './Footer_en'
 import FooterIT from './Footer_it'
 
-function Article ({children, location}) {
+function Article ({children, location, giulia}) {
   const [loading, setLoading] = useState('is-loading')
 
   const timeoutId = setTimeout(() => {
@@ -25,6 +25,8 @@ function Article ({children, location}) {
     language = 'it'
   }
 
+  const title = giulia ? "Seth + Raff + Giulia" : "Seth + Raff 10"
+
   const footer = language === 'en' 
     ? <FooterEN language={language} />
     : <FooterIT language={language} />
@@ -38,9 +40,9 @@ function Article ({children, location}) {
               <a href="#" className="button">EN</a>
           </div>
           <div className="alttitle">
-              <h1>Seth + Raff 10</h1>
+              <h1>{title}</h1>
           </div>
-          <Header language={language} />
+          <Header language={language} giulia={giulia} />
           <div id="main" className={loading}>
             {children}
           </div>

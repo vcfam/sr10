@@ -7,6 +7,7 @@ import TravelPage from './travel'
 import AnniversaryPage from './anniversary'
 import VenuePage from './venue'
 import RsvpPage from './rsvp'
+import RegistryPage from './registry'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <PrivateRoute path="/anniversary" component={AnniversaryPage} />
       <PrivateRoute path="/venue" component={VenuePage} />
       <PrivateRoute path="/rsvp" component={RsvpPage} />
+      <PrivateRoute path="/giulia" component={RegistryPage} />
     </Router>
   )
 }

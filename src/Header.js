@@ -38,6 +38,16 @@ const nextInfo = {
   it: `a data da destinarsi. Per informazioni: `,
 }
 
+const giulia = {
+  en: "If you're looking for our daughter's registry ",
+  it: "Se cercate la lista regali per l'arrivo di nostra figlia "
+}
+
+const giulia2 = {
+  en: "click here ",
+  it: "cliccare qui "
+}
+
 const Header = ({language, isMain}) => {
   const content = isMain 
     ? (<div className="content">
@@ -46,6 +56,7 @@ const Header = ({language, isMain}) => {
           <h1>— {next[language]} —</h1>
           <p>{nextInfo[language]}  <a href="mailto:sethandraff@gmail.com">sethandraff@gmail.com</a></p>
           {/* <p>{subtitle[language ]}</p> */}
+          <p><strong>{giulia[language]} <Link to={`giulia/#${language}`}>{giulia2[language]}</Link></strong></p>
         </div>
     </div>)
     : ''
@@ -56,7 +67,7 @@ const Header = ({language, isMain}) => {
           <img src={logo} alt="westie logo"/>
         </Link>
       </div>
-      {content}      
+      {content}    
       {/* <nav>
         <ul>
             <li><Link to={`/anniversary#${language}`}>{menu.anniversary[language]}</Link></li>
