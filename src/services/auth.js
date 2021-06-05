@@ -10,12 +10,12 @@ const cipher = salt => {
       .join('')
 }
 const myChipher = cipher('isladog')
-const a2a2ae2dbcce4 = "3f121e18123a1515123d1a"
+const a2a2ae2dbcce4 = "1c120e17121a"
 const g = typeof window !== "undefined" ? window : 0
 export const isBrowser = () => typeof window !== "undefined"
-export const handleLogin = (password) => {
-  if (myChipher(password) === a2a2ae2dbcce4) {
-    g.localStorage.setItem("loggedIn", password)
+export const handleLogin = (p) => {
+  if (myChipher(p) === a2a2ae2dbcce4) {
+    g.localStorage.setItem("loggedIn", p)
     return true
   }
   return false

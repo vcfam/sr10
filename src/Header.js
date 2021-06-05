@@ -39,24 +39,19 @@ const nextInfo = {
 }
 
 const giulia = {
-  en: "If you're looking for our daughter's registry ",
-  it: "Se cercate la lista regali per l'arrivo di nostra figlia "
-}
-
-const giulia2 = {
-  en: "click here ",
-  it: "cliccare qui "
+  en: "Giulia's registry",
+  it: "Lista per l'arrivo di Giulia"
 }
 
 const Header = ({language, isMain}) => {
   const content = isMain 
     ? (<div className="content">
         <div className="inner">
-          <h1>Seth + Raff 10</h1>
-          <h1>— {next[language]} —</h1>
-          <p>{nextInfo[language]}  <a href="mailto:sethandraff@gmail.com">sethandraff@gmail.com</a></p>
+          {/* <h1>Seth + Raff + Giulia</h1> */}
+          {/* <h1>— {next[language]} —</h1> */}
+          {/* <p>{nextInfo[language]}  <a href="mailto:sethandraff@gmail.com">sethandraff@gmail.com</a></p> */}
           {/* <p>{subtitle[language ]}</p> */}
-          <p><strong>{giulia[language]} <Link to={`giulia/#${language}`}>{giulia2[language]}</Link></strong></p>
+          <p><strong><Link to={`giulia/#${language}`}>{giulia[language]}</Link></strong></p>
         </div>
     </div>)
     : ''
